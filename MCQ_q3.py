@@ -4,15 +4,17 @@ school = { "Maths":"Irene",
 
 ...
 
-#answer
+#incorrect solution
 for subject in school:
     print(subject,school)
 print("------------")
-    
+
+#a correct solution
 for subject,teacher in school.items():
     print(subject,teacher)
 print("------------")
 
+#a correct solution
 for subject in school:
     print(subject,school[subject])
 print("------------")
