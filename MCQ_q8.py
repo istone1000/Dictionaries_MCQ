@@ -6,5 +6,7 @@ teachers = { "Maths":"Irene",
 }
 
 print(teachers)
+
+#solution
 del teachers["Maths"]
 print(teachers)
